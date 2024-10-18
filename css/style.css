@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom,#a300a3, #e680e6);
+    background: linear-gradient(to bottom,#ff69b4,#87ceeb);
 }
 header {
-    background: linear-gradient(to bottom, #e680e6, #a300a3);
+    background: linear-gradient(to bottom, #87ceeb,#ff69b4);
     text-align: center;
     padding: 20px;
 }
@@ -30,13 +30,13 @@ header p, header h2 {
 }
 
 nav {
-    background-color: #e680e6;
+    background-color: #ff69b4;
     text-align: center;
     padding: 10px 0;
 }
 
 nav button {
-    background-color: #ffff99;
+    background-color: #fff6d2;
     border: none;
     color: rgb(252, 247, 247);
     padding: 10px 20px;
@@ -51,7 +51,7 @@ nav button {
 }
 
 nav button:hover {
-    background-color: #e680e6;
+    background-color: #ffdab9;
 }
 
 main {
