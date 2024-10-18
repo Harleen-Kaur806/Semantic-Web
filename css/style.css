@@ -29,10 +29,28 @@ header p, header h2 {
     color:#f9f7f7;
 }
 
+.links-container {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+}
+
+.links-container a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.links-container a:hover {
+    background-color: #87ceeb;
+}
+
 nav {
-    background-color: #ff69b4;
-    text-align: center;
-    padding: 10px 0;
+   background-color: #ff69b4;
+   text-align: center;
+   padding: 10px 0;
 }
 
 nav button {
